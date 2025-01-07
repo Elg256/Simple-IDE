@@ -190,7 +190,7 @@ class CustomTreeView(QTreeView):
 class MainWindow(QMainWindow):
     def __init__(self):
         super().__init__()
-        self.setWindowTitle("IDE C avec PySide6 - Thème sombre")
+        self.setWindowTitle("Simple IDE")
         self.setGeometry(100, 100, 800, 600)
 
         central_widget = QWidget()
