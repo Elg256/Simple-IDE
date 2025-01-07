@@ -1,0 +1,5 @@
+last_file:
+language:Rust
+compile_cmd_c:gcc -o main main.c
+compile_cmd_rust:cargo build
+windowed:False
