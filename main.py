@@ -396,7 +396,7 @@ class MainWindow(QMainWindow):
         self.language = "C"
         self.windowed = False
 
-        with open("parameter_c", "r") as file:
+        with open("parameters", "r") as file:
             data = file.read()
             last_file = "Not Found"
             compile_command = "Not found"
